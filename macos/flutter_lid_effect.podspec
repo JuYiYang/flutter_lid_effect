@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'flutter_lid_effect'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'Application-local MacBook lid angle effects for Flutter.'
   s.description = 'Reads built-in lid angle HID reports for the registered Flutter view.'
   s.homepage = 'https://github.com/JuYiYang/flutter_lid_effect'

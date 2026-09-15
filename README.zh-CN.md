@@ -1,10 +1,20 @@
 # flutter_lid_effect
 
+[![pub package](https://img.shields.io/pub/v/flutter_lid_effect.svg)](https://pub.dev/packages/flutter_lid_effect)
+[![Tests](https://github.com/JuYiYang/flutter_lid_effect/actions/workflows/ci.yml/badge.svg)](https://github.com/JuYiYang/flutter_lid_effect/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 [English](README.md) | 简体中文
 
-为 Flutter macOS 应用添加由 MacBook 屏幕开合角度驱动的景深效果。缓慢合盖时，应用内容平滑倾斜、模糊、变暗；重新打开时恢复正常。
+**Flutter macOS 开合角度传感器与模糊动画插件。** 为应用添加由 MacBook 屏幕开合角度驱动的景深效果。缓慢合盖时，应用内容平滑倾斜、模糊、变暗；重新打开时恢复正常。
 
 动画参考来自 [Makito](https://github.com/sumimakito) 的 [Mac-Duo](https://github.com/sumimakito/Mac-Duo)。感谢作者向开源社区分享原始动画效果与传感器实现。
+
+## 效果预览
+
+![Flutter macOS 开合动画：合盖时应用内容倾斜、模糊和变暗](https://raw.githubusercontent.com/JuYiYang/flutter_lid_effect/master/doc/media/lid-effect-preview.gif)
+
+*使用实际 Flutter 组件渲染，角度为模拟输入，并非真实硬件合盖录像。效果仅作用于应用内容。*
 
 ## 功能
 
@@ -40,7 +50,7 @@ flutter pub add flutter_lid_effect
 
 ```yaml
 dependencies:
-  flutter_lid_effect: ^0.1.0
+  flutter_lid_effect: ^0.1.1
 ```
 
 [包主页](https://pub.dev/packages/flutter_lid_effect) · [源码](https://github.com/JuYiYang/flutter_lid_effect) · [问题反馈](https://github.com/JuYiYang/flutter_lid_effect/issues)

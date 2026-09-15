@@ -1,10 +1,20 @@
 # flutter_lid_effect
 
+[![pub package](https://img.shields.io/pub/v/flutter_lid_effect.svg)](https://pub.dev/packages/flutter_lid_effect)
+[![Tests](https://github.com/JuYiYang/flutter_lid_effect/actions/workflows/ci.yml/badge.svg)](https://github.com/JuYiYang/flutter_lid_effect/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 English | [简体中文](README.zh-CN.md)
 
-Bring a lid-angle-driven depth effect to your Flutter app on macOS. As you close your MacBook, your app's content tilts, blurs, and dims smoothly; opening the lid restores it.
+**MacBook lid angle sensor and blur animation for Flutter on macOS.** Bring a lid-angle-driven depth effect to your app. As you close your MacBook, your app's content tilts, blurs, and dims smoothly; opening the lid restores it.
 
 Inspired by [Mac-Duo](https://github.com/sumimakito/Mac-Duo) by [Makito](https://github.com/sumimakito). Thank you for sharing the original effect and sensor implementation with the open-source community.
+
+## Preview
+
+![Flutter macOS lid-angle effect: closing blurs, tilts and dims application content](https://raw.githubusercontent.com/JuYiYang/flutter_lid_effect/master/doc/media/lid-effect-preview.gif)
+
+*Simulated angles rendered with the actual Flutter widget; this is not a recording of physical lid movement. The effect is confined to the application content.*
 
 ## Features
 
@@ -40,7 +50,7 @@ Or declare the version directly:
 
 ```yaml
 dependencies:
-  flutter_lid_effect: ^0.1.0
+  flutter_lid_effect: ^0.1.1
 ```
 
 [Package](https://pub.dev/packages/flutter_lid_effect) · [Source](https://github.com/JuYiYang/flutter_lid_effect) · [Issues](https://github.com/JuYiYang/flutter_lid_effect/issues)

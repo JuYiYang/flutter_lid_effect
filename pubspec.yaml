@@ -1,8 +1,17 @@
 name: flutter_lid_effect
-description: MacBook lid angle readings and smooth perspective, blur and dimming for Flutter application content.
-version: 0.1.0
+description: A Flutter plugin for macOS that reads MacBook lid angles and adds smooth perspective, blur animation and gradient dimming to your app.
+version: 0.1.1
 repository: https://github.com/JuYiYang/flutter_lid_effect
 issue_tracker: https://github.com/JuYiYang/flutter_lid_effect/issues
+topics:
+  - macos
+  - animation
+  - sensor
+  - blur
+  - lid-angle
+screenshots:
+  - description: Simulated MacBook lid angles driving the real Flutter effect widget.
+    path: doc/media/lid-effect-preview.gif
 environment:
   sdk: ^3.10.3
   flutter: '>=3.38.0'
