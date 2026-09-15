@@ -1,0 +1,22 @@
+PODS:
+  - flutter_lid_effect (0.1.0):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - flutter_lid_effect (from `Flutter/ephemeral/.symlinks/plugins/flutter_lid_effect/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  flutter_lid_effect:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_lid_effect/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  flutter_lid_effect: ced1350e84720e0254c2a4941888567ecfa46f20
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+
+PODFILE CHECKSUM: 54d867c82ac51cbd61b565781b9fada492027009
+
+COCOAPODS: 1.17.0

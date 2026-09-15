@@ -1,0 +1,7 @@
+.dart_tool/
+build/
+.pub/
+.flutter-plugins-dependencies
+pubspec.lock
+example/macos/Flutter/ephemeral/
+example/macos/Pods/
